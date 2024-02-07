@@ -25,13 +25,12 @@ a.current:visited{
     font-family: 'Ysabeau', sans-serif;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: center;
     
 }
 
 .about_me{
     color: rgb(10, 68, 17);
-    padding-top: 20px;
     width: 400px;
     text-align: justify;
 }
@@ -39,7 +38,7 @@ a.current:visited{
 .profile_pic {
     width:300px;
     height: 300px;
-    margin-left: 20px;
+    margin-left: 60px;
     margin-top: 30px;
 }
 
@@ -47,15 +46,23 @@ a.current:visited{
     .main{
         flex-direction: column;
         align-items: center;
-        margin-top: 50px;
+        margin: 0 60px;
+        margin-top: 40px;
+
     }
 
     .profile_pic {
         width: 200px;
         height: 200px;
+        margin-left: 0px;
+        margin-bottom: 20px;
     }
 
     body {
-        height: 110vh;
+        height: 140vh;
+    }
+
+    .about_me {
+        width: 300px;
     }
 }

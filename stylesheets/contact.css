@@ -118,6 +118,11 @@ a.current:visited{
     }
 
     body {
-        height: 130vh;
+        height: 150vh;
+    }
+
+    .main {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }

@@ -42,6 +42,6 @@ p.intro::first-letter {
         font-size: 36px;
     }
     .content{
-        margin-right: 90px;
+        margin-right: 0px;
     }
 }
