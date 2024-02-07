@@ -10,7 +10,10 @@
     /* background-color: rgb(244, 238, 238, 0.5); */
 }
 
+
+
 .name {
+    color: rgb(10, 68, 17);
     padding: 20px;
     font-size: 36px;
     font-family:'Righteous', sans-serif;
@@ -37,4 +40,41 @@
 .nav_buttons .button:hover {
     font-weight: 600;
     color:floralwhite;
+}
+
+.main{
+    margin: 0 120px;
+    margin-top: 60px;
+}
+
+.footer {
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+@media (max-width: 786px){
+    .navbar {
+        flex-direction: column;
+        padding: 0;
+        
+    }   
+    .navbar .name{
+        text-align: center;
+    }
+
+    .nav_buttons{
+        width: 100%;
+     
+    }
+
+    .main{
+        margin: 0 80px;
+        margin-top: 80px;
+    }
 }

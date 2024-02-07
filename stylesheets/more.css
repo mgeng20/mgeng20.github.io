@@ -19,24 +19,18 @@ a.current:visited{
     color:floralwhite;
 }
 
-.footer {
-    color: #fff;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-}
 
 .main{
-    padding: 120px;
+    margin-top: 120px;
     font-family: 'Ysabeau', sans-serif;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
+    
 }
 
 .about_me{
+    color: rgb(10, 68, 17);
     padding-top: 20px;
     width: 400px;
     text-align: justify;
@@ -45,5 +39,23 @@ a.current:visited{
 .profile_pic {
     width:300px;
     height: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
+@media (max-width: 786px){
+    .main{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .profile_pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    body {
+        height: 110vh;
+    }
+}
