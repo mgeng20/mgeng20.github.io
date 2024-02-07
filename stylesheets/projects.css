@@ -65,7 +65,8 @@ a.external_link:visited{
     font-family: 'Quicksand', sans-serif;
 }
 
-@media (max-width: 786px){
+@media screen and (max-device-width: 786px){
+/* @media (max-width: 786px){ */
     .main {
         padding: 0;
         margin: 50px;
