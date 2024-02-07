@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(217deg, rgba(239, 169, 169, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(177, 249, 177, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(157, 188, 241, 0.8), rgba(0,0,255,0) 70.71%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(10, 68, 17);
+}
+
+a.current:visited{
+    color:floralwhite;
+}
+
+.main {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.input_field {
+    margin-bottom: 5px;
+    height: 30px;
+    width: 95%;
+    border-radius: 8px;
+    border: rgb(200, 200, 200) solid 1px;
+}
+
+
+.message_field{
+    height: 200px;
+}
+
+.contact_container .button {
+    background-color: white;
+    border: rgb(200, 200, 200) solid 1px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    width: 160px;
+    cursor: pointer;
+}
+.contact_container .button:hover {
+    background-color: #caf4f7;
+    color: rgb(8, 57, 37);
+  }
+
+.contact_container {
+    justify-content: center;
+    display: grid;
+    grid-template-areas: 
+    "headline headline"
+    "fields message"
+    "icons icons";
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: 10px;
+    width: 70%;
+}
+
+.headline {
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    /* font-weight: 700; */
+    text-align: center;
+    grid-area: headline;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    grid-area: fields;
+}
+
+.message_content {
+    text-align: justify;
+    margin-top: 20px;
+    grid-area: message;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.icons {
+    grid-area: icons;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}

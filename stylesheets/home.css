@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(217deg, rgba(239, 169, 169, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(177, 249, 177, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(157, 188, 241, 0.8), rgba(0,0,255,0) 70.71%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(10, 68, 17);
+}
+
+a.current:visited{
+    color:floralwhite;
+}
+.headline {
+    font-family: 'DM Serif Display', serif;
+    font-size: 72px;
+    text-align: left;
+    padding-left: 120px;
+    padding-top: 60px;
+}
+
+.content {
+    color: rgb(10, 68, 17);
+    padding-left: 120px;
+    padding-right: 300px;
+    text-align: left;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+p.intro::first-letter {
+    font-size: 200%;
+  } 
+.footer {
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+    section {
+        padding: 10px;
+    }
+}

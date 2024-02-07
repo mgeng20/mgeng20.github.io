@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(217deg, rgba(239, 169, 169, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(177, 249, 177, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(157, 188, 241, 0.8), rgba(0,0,255,0) 70.71%);
+    margin: 0;
+    padding: 0;
+    height: 130vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.button:visited{
+    color: rgb(10, 68, 17);
+}
+
+a.current:visited{
+    color:floralwhite;
+}
+
+.main{
+    padding: 120px;
+    padding-top: 80px;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.single_project {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.project_name{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.projects_container p{
+    color: rgb(10, 68, 17);
+}
+.key_word {
+    font-weight: 800;
+}
+
+.external_link{
+    color:rgb(167, 167, 255);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+a.external_link:visited{
+    color:rgb(167, 167, 255);
+}
+
+.footer {
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
